@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url("font/Poppins-ExtraLight.ttf");
+    
+    
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 18px;
+    background-color: #202142;    
+    line-height: 1.55;
+    font-family: "Poppins-Thin";
+    min-height: 70vh;
+    }
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container{
+    border: 1px solid grey;
+    min-height: 30vh;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+header{
+        text-transform: uppercase;
+         color:rgba(60,58,71,.8);
+         font-weight: 900;
+         font-size: 2rem;
+         background-color: #171732;
+         width: 100%;
+         
+         text-align: center;
+         color: #ff6a95;
+         
+        }
+
+form input{
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #d2cece;
+    font-family: 'Poppins-Thin';
+    color: black;
+    font-weight: 900;
+}
+input[type=text]{
+    padding: .2rem;
+}
+.input1,.input2{
+    text-align: center;
+    padding: .3rem 0;
+    
+}    
+#text{
+    padding: .1rem;
+    
+}
+#description{
+    padding: .3rem;
+}
+
+    
+button{
+    font-family: 'Poppins-Thin';
+    color: black;
+    font-weight: 900;
+    padding: .2rem .6rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+}        
+
+#todoResult{
+    border: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    min-height: 35vh;
+    max-height: 35vh;
+    overflow-y: scroll;
+    
+}
+
+#task{
+    color: #ff6a95;
+    
+}
+#emptyTask{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 900;
+}
